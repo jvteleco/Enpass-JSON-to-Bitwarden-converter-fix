@@ -25,7 +25,7 @@ items_processed_changed = 0
 
 print("Opening Enpass file")
 with open(EnpassFileName, encoding="utf8") as f:
-  json_data_enpass = json.load(f)
+    json_data_enpass = json.load(f)
   
 ##print(json_data)  
 #print(json.dumps(json_data_enpass, indent = 2))
@@ -33,7 +33,7 @@ with open(EnpassFileName, encoding="utf8") as f:
 
 print("Opening Bitwarden file")
 with open(BitwardenFileName,encoding="utf8") as f_bt:
-  json_data_bitwarden = json.load(f_bt)
+    json_data_bitwarden = json.load(f_bt)
   
 
   
@@ -123,7 +123,7 @@ print("Number of fields fixed to hidden", items_processed_changed)
 
 
 with open('Bitwarden_fixed.json', 'w') as json_file:
-  json.dump(json_data_bitwarden, json_file, indent = 2)
+    json.dump(json_data_bitwarden, json_file, indent = 2)
   
   
 fixed_file.close()
