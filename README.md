@@ -1,6 +1,12 @@
 # Enpass-JSON-to-Bitwarden-converter-fix
 Python script to fix the custom fields not being show as hidden on Bitwarden when importing Enpass JSON
 
+TODO :  commentar python file correctly (la intro)
+poner las fotos
+subir ficheros ejemplo
+ponerlo en el ticket the bitwarden server
+
+
 ## Summary
 When importing an Enpass JSON file to Bitwarden, if you have custom fields that are hidden/marked as "Sensitive" on Enpass, they are imported as standard text fields in Bitwarden, not as hidden.
 
@@ -27,6 +33,7 @@ PHOTOOO
   IMPORTANT: COPY THE FILE, do not MOVE IT. Always keep the original backup Bitwarden file. 
 7. Execute the python script. It will create a new Bitwarden_fixed.json file
 8. You can check the output file Fixed_DELETE.txt to see which fields have been fixed. You can also compare the Bitwarden_exported.json with the Bitwarden_fixed.json file.
+
   **IMPORTANT: DELETE the Fixed_DELETE.txt file since it will have plain text visible password!**
 
 9. Delete your Bitwarden vault. Go to Settings → At the bottom of the page, in the "Danger zone" box, click "Purge vault"
@@ -36,4 +43,4 @@ PHOTOOO
 PHOTOOO
 
 
-REMEMBER to delete the Fixed_DELETE.txt file once you have finished and move all the JSON files to a secure place since they will have all your passwords.
+**REMEMBER to delete the Fixed_DELETE.txt file once you have finished and move all the JSON files to a secure place since they will have all your passwords.**
