@@ -10,7 +10,7 @@ ponerlo en el ticket the bitwarden server
 ## Summary
 When importing an Enpass JSON file to Bitwarden, if you have custom fields that are hidden/marked as "Sensitive" on Enpass, they are imported as standard text fields in Bitwarden, not as hidden.
 
-![Enpass hidden example](https://github.com/jvteleco/Enpass-JSON-to-Bitwarden-converter-fix/images/Enpass_hidden_example.jpg?raw=true)
+![Enpass hidden example](https://github.com/jvteleco/Enpass-JSON-to-Bitwarden-converter-fix/blob/master/images/Enpass_hidden_example.jpg?raw=true)
 
 The python script will compare an Enpass JSON file with a Bitwarden JSON file. If it finds fields that should be hidden, it will correct the Bitwarden JSON. You can then import this new file to your vault.
 
@@ -28,7 +28,7 @@ I do not take resposability of this script messing up or loosing info of your va
 4. Check some of the items. On the photo below you can observe how the custom "Sensitive/password" fields at the bottom are not hidden with *** because of the incorrect import.
 
 
-PHOTOOO 
+![Enpass hidden example](images/Bitwarden_imported_incorrectly.jpg?raw=true) 
 
 
 5. Go again to Tools → Export Vault.Choose JSON and put your Bitwarden password.
@@ -43,7 +43,7 @@ PHOTOOO
 10. Import now the corrected file name Bitwarden_fixed.json Go to Tools → Import Data. Choose from the dropdown the first element, BITWARDEN(JSON) and select the Bitwarden_fixed.json file. Upload it.
 11. Check again the items. The custom fields should now be correctly hidden when appropiate.
 
-PHOTOOO
+![Enpass hidden example](images/Bitwarden_fields_fixed.jpg) 
 
 
 **REMEMBER to delete the Fixed_DELETE.txt file once you have finished and move all the JSON files to a secure place since they will have all your passwords.**
