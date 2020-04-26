@@ -10,7 +10,7 @@ ponerlo en el ticket the bitwarden server
 ## Summary
 When importing an Enpass JSON file to Bitwarden, if you have custom fields that are hidden/marked as "Sensitive" on Enpass, they are imported as standard text fields in Bitwarden, not as hidden.
 
-PHOTO EXAMPLE
+![Enpass hidden example](https://github.com/jvteleco/Enpass-JSON-to-Bitwarden-converter-fix/images/Enpass_hidden_example.jpg?raw=true)
 
 The python script will compare an Enpass JSON file with a Bitwarden JSON file. If it finds fields that should be hidden, it will correct the Bitwarden JSON. You can then import this new file to your vault.
 

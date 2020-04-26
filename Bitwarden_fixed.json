@@ -1,0 +1,48 @@
+{
+  "folders": [],
+  "items": [
+    {
+      "id": "589600a9-2b46-43f4-8288-aba900b9475f",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "name": "TEST BITWARDEN",
+      "notes": null,
+      "favorite": false,
+      "fields": [
+        {
+          "name": "E-mail",
+          "value": "myemail@mail.com",
+          "type": 0
+        },
+        {
+          "name": "Security question",
+          "value": "my security qs",
+          "type": 0
+        },
+        {
+          "name": "Security answer",
+          "value": "thisshouldbehidden",
+          "type": 1
+        },
+        {
+          "name": "My secret",
+          "value": "myhiddensecret",
+          "type": 1
+        }
+      ],
+      "login": {
+        "uris": [
+          {
+            "match": null,
+            "uri": "https://bitwarden.com/"
+          }
+        ],
+        "username": "test-user",
+        "password": "mypassword",
+        "totp": null
+      },
+      "collectionIds": null
+    }
+  ]
+}

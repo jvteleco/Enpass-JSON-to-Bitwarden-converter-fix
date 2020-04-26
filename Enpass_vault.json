@@ -1,0 +1,131 @@
+{
+    "items": [
+        {
+            "auto_submit": 0,
+            "category": "login",
+            "favorite": 0,
+            "fields": [
+                {
+                    "label": "Username",
+                    "order": 1,
+                    "sensitive": 0,
+                    "type": "username",
+                    "uid": 10,
+                    "updated_at": 1587898421,
+                    "value": "test-user",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "E-mail",
+                    "order": 2,
+                    "sensitive": 0,
+                    "type": "email",
+                    "uid": 12,
+                    "updated_at": 1587898421,
+                    "value": "myemail@mail.com",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "Password",
+                    "order": 3,
+                    "sensitive": 1,
+                    "type": "password",
+                    "uid": 11,
+                    "updated_at": 1587898421,
+                    "value": "mypassword",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "history": [
+                        {
+                            "updated_at": 1587898421,
+                            "value": "www.web.com"
+                        }
+                    ],
+                    "label": "Website",
+                    "order": 4,
+                    "sensitive": 0,
+                    "type": "url",
+                    "uid": 13,
+                    "updated_at": 1587898436,
+                    "value": "https://bitwarden.com/",
+                    "value_updated_at": 1587898436
+                },
+                {
+                    "label": "ADDITIONAL DETAILS",
+                    "order": 5,
+                    "sensitive": 0,
+                    "type": "section",
+                    "uid": 101,
+                    "updated_at": 1587898421,
+                    "value": "",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "Phone number",
+                    "order": 6,
+                    "sensitive": 0,
+                    "type": "phone",
+                    "uid": 14,
+                    "updated_at": 1587898421,
+                    "value": "",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "TOTP",
+                    "order": 7,
+                    "sensitive": 0,
+                    "type": "totp",
+                    "uid": 102,
+                    "updated_at": 1587898421,
+                    "value": "",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "Security question",
+                    "order": 8,
+                    "sensitive": 0,
+                    "type": "text",
+                    "uid": 15,
+                    "updated_at": 1587898421,
+                    "value": "my security qs",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "Security answer",
+                    "order": 9,
+                    "sensitive": 1,
+                    "type": "text",
+                    "uid": 16,
+                    "updated_at": 1587898421,
+                    "value": "thisshouldbehidden",
+                    "value_updated_at": 1587898421
+                },
+                {
+                    "label": "My secret",
+                    "order": 10,
+                    "sensitive": 1,
+                    "type": "password",
+                    "uid": 5330,
+                    "updated_at": 1587898511,
+                    "value": "myhiddensecret",
+                    "value_updated_at": 1587898511
+                }
+            ],
+            "icon": {
+                "fav": "bitwarden.com",
+                "image": {
+                    "file": "misc/login"
+                },
+                "type": 1,
+                "uuid": ""
+            },
+            "note": "",
+            "subtitle": "test-user",
+            "template_type": "login.default",
+            "title": "TEST BITWARDEN",
+            "updated_at": 1587898440,
+            "uuid": "ed15516c-7204-47a4-b2f2-25d847b54e9f"
+        }
+    ]
+}
