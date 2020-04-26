@@ -24,15 +24,14 @@ I do not take resposability of this script messing up or loosing info of your va
 
 ## Instructions
 1. Export your Enpass vault as JSON. Go to File -> Export. Select JSON and save the file to your desktop. Copy the file to the working directly and rename it to Enpass_vault.json
+
 ![Enpass hidden example](https://github.com/jvteleco/Enpass-JSON-to-Bitwarden-converter-fix/blob/master/images/Enpass_hidden_example.jpg?raw=true)
 
 2. Open Bitwarden web https://vault.bitwarden.com/ (or your own self-hosted bitwaren) and login to with your username.
 3. Navigate to Tools → Import Data. Choose from the dropdown Enpass(JSON) and select your previous created file. Upload it.
 4. Check some of the items. On the photo below you can observe how the custom "Sensitive/password" fields at the bottom are not hidden with *** because of the incorrect import.
 
-
 ![Bitwarden wrong import](images/Bitwarden_imported_incorrectly.jpg?raw=true) 
-
 
 5. Go again to Tools → Export Vault.Choose JSON and put your Bitwarden password.
 6. Copy the saved file (should have a format similar to "bitwarden_export_20200426121443.json" to the working folder and rename it as Bitwarden_exported.json
