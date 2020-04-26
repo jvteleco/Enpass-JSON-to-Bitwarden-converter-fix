@@ -17,10 +17,13 @@ The python script will compare an Enpass JSON file with a Bitwarden JSON file. I
 DISCLAIMER: ALWAYS keep a backup of the JSON files in a secure place. This files will have all your passwords in plain text, so keep them in safe place and consider encrypting them/and put them in password protected zip. 
 I do not take resposability of this script messing up or loosing info of your vault. 
 
+## Pre-requisites
+- Python3 (probably will work with Python2.7 or will need small adjustments)
+- JSON python library (not sure if included by default on Python3 distribution)
 
 ## Instructions
 1. Export your Enpass vault as JSON. Go to File -> Export. Select JSON and save the file to your desktop. Copy the file to the working directly and rename it to Enpass_vault.json
-2. Open Bitwarden web https://vault.bitwarden.com/ and login to with your username.
+2. Open Bitwarden web https://vault.bitwarden.com/ (or your own self-hosted bitwaren) and login to with your username.
 3. Navigate to Tools → Import Data. Choose from the dropdown Enpass(JSON) and select your previous created file. Upload it.
 4. Check some of the items. On the photo below you can observe how the custom "Sensitive/password" fields at the bottom are not hidden with *** because of the incorrect import.
 
