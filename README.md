@@ -17,11 +17,12 @@ I do not take resposability of this script messing up or loosing info of your va
 - Python3 (probably will work with Python2.7 or will need small adjustments)
 - JSON python library (not sure if included by default on Python3 distribution)
 
-## Instructions
-1. Export your Enpass vault as JSON. Go to File -> Export. Select JSON and save the file to your desktop. Copy the file to the working directly and rename it to Enpass_vault.json
+This is how Enpass entry looks like, with sensitive information hidden:
 
 ![Enpass hidden example](images/Enpass_hidden_example.jpg?raw=true)
 
+## Instructions
+1. Export your Enpass vault as JSON. Go to File -> Export. Select JSON and save the file to your desktop. Copy the file to the working directly and rename it to Enpass_vault.json
 2. Open Bitwarden web https://vault.bitwarden.com/ (or your own self-hosted bitwaren) and login to with your username.
 3. Navigate to Tools → Import Data. Choose from the dropdown Enpass(JSON) and select your previous created file. Upload it.
 4. Check some of the items. On the photo below you can observe how the custom "Sensitive/password" fields at the bottom are not hidden with *** because of the incorrect import.
